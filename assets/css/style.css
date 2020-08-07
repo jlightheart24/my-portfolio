@@ -14,13 +14,16 @@ body{
     flex-wrap: wrap;
     align-items: center;
     padding-top: 15px;
+    padding-right: 15px;
 }
 
 .section-title{
     width: 25%;
     justify-content: center;
-    border-bottom: 3px solid;
+    border-right: 3px solid;
     margin-left: 0;
+    padding-left: 10px;
+    height: 50px;
 }
 
 .section-content{
@@ -78,4 +81,22 @@ header h1{
     font-weight: bold;
     font-size: 36px;
     margin: 0;
+}
+
+/*hero*/
+.hero{
+    background-image: url("../assets/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

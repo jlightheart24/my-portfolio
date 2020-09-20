@@ -151,13 +151,18 @@ header h1{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 15px;
+    grid-template-columns: 200px 100px auto 50px;
+    grid-template-rows: 200px 100px auto 50px;
 }
 
 .work-grid-item{
-    width: 200px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     border: solid;
     color: #FEDE1A;
+}
+.grid-item-1{
+    grid-row: 1 / 3;
 }
 
 .grid-item-2{

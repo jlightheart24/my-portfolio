@@ -160,13 +160,13 @@ header h1{
     color: #FEDE1A;
 }
 
-.grid-item-1{
+.grid-item-2{
     background-image: url("../images/run-buddy-background.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.grid-item-2{
+.grid-item-3{
     background-image: url("../images/horiseon-background.jpg");
     background-size: cover;
     background-position: center;
